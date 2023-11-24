@@ -95,3 +95,57 @@ main .business-plan > .plan .group{
 .container .partner div{
     flex-grow: 1;
 }
+
+.container section .dropbox-business{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.container section .dropbox-business > .card{
+    flex-basis: calc((100% / 3) - (20px / 3));
+}
+
+main .company-partner{
+    display: flex;
+}
+
+.company-partner .side-company{
+    flex-basis: calc(100% / 3);
+}
+
+.company-partner .center-company{
+    flex-basis: calc(100% / 3);
+}
+
+.company-partner .side-company div:first-child{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.company-partner .side-company .company{
+    width: 50%;
+}
+
+
+main .cta{
+    background-color: #b4d0e7;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.cta div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    background-color: #000000;
+}
+
+footer .utility{
+    width: 80%;
+    margin: 0 auto;
+}
