@@ -7,17 +7,23 @@
 
 html{
     font-family: 'Hanken Grotesk', sans-serif;
-    font-family: 'Roboto', sans-serif;
+    
+}
+
+img{
+    width: 100%;
 }
 
 header nav{
     display: flex;
     justify-content: space-between;
     padding: 10px;
+    padding: 20px;
 }
 
 header ul {
     display: flex;
+    align-items: center;
     gap: 30px;
 }
 
@@ -25,10 +31,19 @@ header ul li{
     list-style-type: none;
 }
 
+header ul li a{ 
+    text-decoration: none;
+    color: black;
+}
+header ul li img{
+    width: 100%;
+    display: block;
+}
+
 .button{
     background-color: #0061ff;
     color: white;
-    padding: 5px 10px;
+    padding: 8px 15px;
     text-decoration: none;
 }
 
@@ -38,9 +53,8 @@ main .container-jumbo{
 }
 
 main .container-jumbo .jumbo{
-    width: 80%;
+    width: 65%;
     margin: 0 auto;
-    background-color: #b4d0e7;
 }
 
 .container-jumbo .jumbo .jumbo-flex{
@@ -48,15 +62,40 @@ main .container-jumbo .jumbo{
     gap: 20px;
 }
 
-img{
-    width: 100%;
+.container-jumbo .jumbo h1 {
+    font-size: 80px;
+    font-weight: 900;
+    padding-top: 70px;
 }
 
+
 .jumbo-flex div{
-    flex-grow:1 ;
+    flex-basis: 30% ;
+    line-height: 150%;
+    position: relative;
+    bottom: -100px;
 }
-.jumbo-flex figure{
-    flex-grow:2;
+
+.container-jumbo .jumbo-flex p{
+    margin-bottom: 30px;
+}
+
+.container-jumbo .jumbo-flex span{
+    margin-block: 30px 50px;
+    display: block;
+}
+
+.container-jumbo .jumbo-flex i{
+    font-size: 60px;
+}
+
+.container-jumbo .jumbo-flex figure{
+    flex-basis: 70%;
+   
+}
+.container-jumbo .jumbo-flex figure img{
+    position: relative;
+    bottom: -100px;
 }
 
 .container{
