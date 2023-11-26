@@ -123,9 +123,6 @@ section .business-plan{
     padding: 30px;
 }
 
-.container .business-plan > .plan div:nth-child(2) h4{
-    font-size: 28px;
-}
 
 .container .business-plan > .plan div:nth-child(2) .bold{
     margin-block: 15px 10px;
@@ -156,20 +153,53 @@ hr{
     border: 1px solid #D3D3D6;
 }
 
+.container .plan .enterprise-plan-flex{
+    display: flex;
+    gap: 20px;
+    padding: 30px;
+}
+
+.container .plan .enterprise-plan-flex div:first-child{
+    flex-basis: 70%;
+}
+
+.container .plan .enterprise-plan-flex div:last-child{
+    flex-grow: 30%;
+    margin-top: 10px;
+}
+
+.container .plan .enterprise-plan-flex div:first-child .margin{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
 
 
 .container .partner{
     display: flex;
     gap: 10px;
+    margin-block: 150px;
 }
 
 .container .partner figure{
-    flex-grow: 2;
+    flex-basis: 60%;
 }
 
 .container .partner div{
-    flex-grow: 1;
+    flex-basis: 40%;
+    padding: 50px;
 }
+
+.container .partner div p{
+    margin-block: 20px 50px;
+}
+
+.container .partner div a{
+    border: 1px solid black;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #000000;
+}
+
 
 .container section .dropbox-business{
     display: flex;
