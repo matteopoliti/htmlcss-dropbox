@@ -1,0 +1,34 @@
+html{
+    font-family: 'Hanken Grotesk', sans-serif;
+    
+}
+
+img{
+    width: 100%;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.grey{
+    color: #666666;
+}
+
+.button{
+    background-color: #0061ff;
+    color: white;
+    padding: 8px 15px;
+    text-decoration: none;
+}
+
+.margin{
+    margin-block: 50px 50px;
+    display: block;
+}
+
+.icon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+  }
