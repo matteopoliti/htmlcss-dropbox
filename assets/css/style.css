@@ -291,6 +291,14 @@ main .cta{
     text-decoration: none;
 }
 
+.cta div a:hover{
+    color: rgb(0, 0, 0, 0.8);
+}
+
+.faq{
+    margin-bottom: 200px;
+}
+
 .faq .flex-faq{
     display: flex;
     justify-content: space-between;
@@ -329,8 +337,28 @@ footer{
     background-color: #000000;
 }
 
-footer .utility{
-    width: 80%;
+footer .footer-container{
+    width: 65%;
     margin: 0 auto;
+    padding: 80px 80px 20px 80px;
 }
 
+footer .utility{
+    color:#ffffff;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .utility ul li{
+    list-style-type: none;
+    margin-block: 15px;
+}
+
+footer hr{
+    width: 10%;
+    margin-block: 100px 50px;
+}
+
+footer span{
+    color: grey;
+}
