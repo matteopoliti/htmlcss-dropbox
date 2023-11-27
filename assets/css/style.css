@@ -144,9 +144,7 @@ section .business-plan{
     padding: 10px 30px;
 }
 
-hr{
-    width: 20%;
-}
+
 
 .container .business-plan > .plan div:nth-child(2) ul li.check::before{
     content: "\f00c";
@@ -257,8 +255,12 @@ main .company-partner{
     justify-content: center;
 }
 
-.company-partner .side-company .company img{
+.company-partner .side-company .company svg{
     width: 50%;
+}
+
+path{
+    fill: white;
 }
 
 
@@ -267,6 +269,8 @@ main .cta{
     background-color: #b4d0e7;
     display: flex;
     justify-content: center;
+    gap: 300px;
+    padding-block: 100px;
     
 }
 
@@ -275,6 +279,51 @@ main .cta{
     justify-content: center;
     align-items: center;
 }
+
+.cta div h3{
+    color: #61082B;
+}
+
+.cta div a{
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px 40px;
+    text-decoration: none;
+}
+
+.faq .flex-faq{
+    display: flex;
+    justify-content: space-between;
+    padding-block: 40px;
+    border-bottom: 1px solid black;
+}
+
+.faq div:nth-child(2){
+    border-top: 1px solid black;
+}
+
+.faq .flex-faq .testo{
+    display: none;
+}
+
+.faq .flex-faq:hover .testo{
+    display: block;
+    margin-top: 30px;
+}
+
+.faq .flex-faq .fa-chevron-down{
+    display: none;
+}
+
+.faq .flex-faq:hover .fa-chevron-down{
+    display: block;
+}
+
+.faq .flex-faq:hover .fa-chevron-up{
+    display: none;
+}
+
+
 
 footer{
     background-color: #000000;
