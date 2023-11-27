@@ -221,8 +221,13 @@ hr{
     margin-block: 10px 40px;
 }
 
+section.team{
+    margin-block: 150px 100px;
+}
+
 main .company-partner{
     display: flex;
+    height: 600px;
 }
 
 .company-partner .side-company{
@@ -231,6 +236,12 @@ main .company-partner{
 
 .company-partner .center-company{
     flex-basis: calc(100% / 3);
+    padding: 50px;
+    overflow: auto;
+}
+
+.company-partner .center-company img{
+    width: 300px;
 }
 
 .company-partner .side-company div:first-child{
@@ -239,8 +250,17 @@ main .company-partner{
 }
 
 .company-partner .side-company .company{
+    height: 300px;
+    width: calc(100% / 2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.company-partner .side-company .company img{
     width: 50%;
 }
+
 
 
 main .cta{

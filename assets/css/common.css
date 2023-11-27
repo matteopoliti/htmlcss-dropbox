@@ -43,3 +43,39 @@ h3{
 h4{
     font-size: 28px;
 }
+
+.green{
+    background-color: #a2d39b;
+}
+
+.brown{
+    background-color: #61082b;
+}
+
+.cyan{
+    background-color: #0093CE;
+}
+
+.red{
+    background-color: #ff1c1c;
+}
+
+.grey{
+    background-color: #f5f5f5;
+}
+
+.fire-red{
+    background-color: #d5001f;
+}
+
+.light-blue{
+    background-color:#b4d0e7 ;
+}
+
+.blue{
+    background-color: #0d2481;
+}
+
+.yellow{
+    background-color: #ffd830;
+}
