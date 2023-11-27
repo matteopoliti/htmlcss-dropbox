@@ -4,7 +4,14 @@
     box-sizing: border-box;
     /* border: 1px solid lime; */
 }
-
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    z-index: 1;
+}
 header nav{
     display: flex;
     justify-content: space-between;
@@ -34,6 +41,7 @@ header ul li img{
 main .container-jumbo{
     width: 100%;
     background-color: #b4d0e7;
+    padding-top: 150px;
 }
 
 main .container-jumbo .jumbo{
@@ -44,20 +52,18 @@ main .container-jumbo .jumbo{
 .container-jumbo .jumbo .jumbo-flex{
     display: flex;
     gap: 20px;
+    position: relative;
+    bottom: -100px;
 }
 
 .container-jumbo .jumbo h1 {
     font-size: 80px;
     font-weight: 900;
-    padding-top: 70px;
 }
-
 
 .jumbo-flex div{
     flex-basis: 30% ;
     line-height: 150%;
-    position: relative;
-    bottom: -100px;
 }
 
 .container-jumbo .jumbo-flex p{
@@ -71,15 +77,12 @@ main .container-jumbo .jumbo{
 
 .container-jumbo .jumbo-flex i{
     font-size: 60px;
+    color: black;
 }
 
 .container-jumbo .jumbo-flex figure{
     flex-basis: 70%;
    
-}
-.container-jumbo .jumbo-flex figure img{
-    position: relative;
-    bottom: -100px;
 }
 
 .container{
@@ -90,7 +93,7 @@ main .container-jumbo .jumbo{
 
 .container section h2{
     margin-bottom: 50px;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .container section label{
@@ -197,9 +200,12 @@ hr{
     border: 1px solid black;
     padding: 10px 15px;
     text-decoration: none;
-    color: #000000;
+    color: rgb(0, 0, 0, 1);
 }
 
+.container .partner div a:hover{
+    color: rgb(0, 0, 0, 0.8);
+}
 
 .container section .dropbox-business{
     display: flex;
@@ -209,6 +215,10 @@ hr{
 
 .container section .dropbox-business > .card{
     flex-basis: calc((100% / 3) - (20px / 3));
+}
+
+.container section .dropbox-business > .card h4{
+    margin-block: 10px 40px;
 }
 
 main .company-partner{
@@ -254,3 +264,4 @@ footer .utility{
     width: 80%;
     margin: 0 auto;
 }
+
