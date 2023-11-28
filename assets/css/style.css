@@ -119,6 +119,7 @@ section .business-plan{
 
 .container .business-plan > .plan ul li{
     list-style-type: none;
+    text-indent: -.6em;
 }
 
 .container .group{
@@ -150,6 +151,9 @@ section .business-plan{
     padding: 10px 30px;
 }
 
+.container .business-plan > .plan div:nth-child(2) ul li .fa-check{
+    color: blue;
+}
 
 .container .plan{
     border: 1px solid #D3D3D6;
