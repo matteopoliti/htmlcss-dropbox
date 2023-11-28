@@ -11,32 +11,38 @@ header{
     right: 0;
     background-color: white;
     z-index: 1;
-}
-header nav{
     display: flex;
     justify-content: space-between;
-    padding: 10px;
-    padding: 20px;
+    align-items: center;
+    padding-inline: 20px;
+    height: 80px;
 }
 
-header ul {
+header nav{
+    height: 100%;
+}
+header nav ul {
     display: flex;
     align-items: center;
     gap: 30px;
+    height: 100%;
 }
 
-header ul li{
+header nav ul li{
     list-style-type: none;
+    line-height: 80px;
 }
 
-header ul li a{ 
+header nav ul li:hover{
+    border-bottom: 2px solid black;
+}
+
+header nav ul li a{ 
     text-decoration: none;
     color: black;
+    height: 100%;
 }
-header ul li img{
-    width: 100%;
-    display: block;
-}
+
 
 main .container-jumbo{
     width: 100%;
@@ -145,14 +151,10 @@ section .business-plan{
 }
 
 
-
-.container .business-plan > .plan div:nth-child(2) ul li.check::before{
-    content: "\f00c";
-}
-
 .container .plan{
     border: 1px solid #D3D3D6;
 }
+
 
 .container .plan .enterprise-plan-flex{
     display: flex;
@@ -225,15 +227,17 @@ section.team{
 
 main .company-partner{
     display: flex;
-    height: 600px;
+    
 }
 
 .company-partner .side-company{
     flex-basis: calc(100% / 3);
+    aspect-ratio: 1;
 }
 
 .company-partner .center-company{
     flex-basis: calc(100% / 3);
+    aspect-ratio: 1;
     padding: 50px;
     overflow: auto;
 }
@@ -248,8 +252,8 @@ main .company-partner{
 }
 
 .company-partner .side-company .company{
-    height: 300px;
     width: calc(100% / 2);
+    aspect-ratio: 1;
     display: flex;
     align-items: center;
     justify-content: center;

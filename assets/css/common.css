@@ -30,12 +30,6 @@ img{
     display: block;
 }
 
-.icon::before {
-    display: inline-block;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-}
-
 h3{
     font-size: 40px;
 }
